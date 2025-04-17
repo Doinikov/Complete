@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -15,17 +14,18 @@
       color: #0af;
       text-decoration: none;
     }
-    header, footer, .section, .cta {
-      text-align: center;
-      padding: 60px 20px;
+    header {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+    }
+    header img {
+      height: 50px;
+      width: auto;
     }
     .hero {
-      padding: 100px 20px 40px;
-    }
-    .hero img {
-      max-width: 160px;
-      display: block;
-      margin: 0 auto 40px;
+      text-align: center;
+      padding: 40px 20px 20px;
     }
     .hero p.description {
       max-width: 800px;
@@ -48,6 +48,8 @@
     .section {
       max-width: 800px;
       margin: auto;
+      text-align: center;
+      padding: 60px 20px;
     }
     .section h2 {
       font-size: 36px;
@@ -69,6 +71,10 @@
       display: inline-block;
       margin-top: 8px;
       font-weight: bold;
+    }
+    .cta {
+      text-align: center;
+      padding: 60px 20px;
     }
     .cta input[type="email"] {
       padding: 12px;
@@ -96,12 +102,18 @@
       font-size: 13px;
       background: #000;
       color: #777;
+      text-align: center;
+      padding: 30px 20px;
     }
   </style>
 </head>
 <body>
-  <div class="hero">
+
+  <header>
     <img src="Screenshot 2025-04-16 222227.png" alt="Complete Logo" />
+  </header>
+
+  <div class="hero">
     <p class="description">
       <strong>SOLUTION (WHAT MAKES US UNIQUE)</strong><br><br>
       Freedom to Choose AI Models Without Leaving the Interface — Multiple platforms (GPT, Claude, Mistral, etc.) in a single workspace, with quick switching and no loss of context—whether in Prompt mode or Classic Chat.<br><br>
@@ -172,5 +184,6 @@
   <footer>
     &copy; 2025 Complete AI — <a href="https://completeapp.ai" target="_blank">completeapp.ai</a> — contact@completeapp.ai
   </footer>
+
 </body>
 </html>
