@@ -8,7 +8,7 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: #1e1f22; /* dark background to match logo */
+      background: #1e1f22;
       color: #fff;
     }
     a {
@@ -24,13 +24,9 @@
       padding: 100px 20px 40px;
     }
     .hero img {
-      max-width: 120px;
+      max-width: 160px;
       display: block;
-      margin: 0 auto 20px;
-    }
-    .hero h1 {
-      font-size: 48px;
-      margin: 0 0 20px;
+      margin: 0 auto 40px;
     }
     .hero p.description {
       max-width: 800px;
@@ -106,8 +102,7 @@
 </head>
 <body>
   <div class="hero">
-    <img src="logo.png" alt="Complete Logo">
-    <h1>Complete</h1>
+    <img src="complete-logo.png" alt="Complete Logo">
     <p class="description">
       <strong>SOLUTION (WHAT MAKES US UNIQUE)</strong><br><br>
       Freedom to Choose AI Models Without Leaving the Interface — Multiple platforms (GPT, Claude, Mistral, etc.) in a single workspace, with quick switching and no loss of context—whether in Prompt mode or Classic Chat.<br><br>
@@ -120,6 +115,63 @@
     <button onclick="document.getElementById('articles').scrollIntoView({behavior: 'smooth'})">EXPLORE ↓</button>
   </div>
 
-  <!-- Articles and footer remain here -->
+  <div id="articles" class="section">
+    <h2>Latest AI Insights</h2>
+
+    <div class="article-block">
+      <h3>GPT-5 Release Date & Features: Everything we know</h3>
+      <p>Overview of expected capabilities and release date for GPT-5.</p>
+      <a href="https://blog.promptlayer.com/gpt-5/" target="_blank">Read more →</a>
+    </div>
+    <div class="article-block">
+      <h3>Claude 3 vs GPT-4: Who's ranking better?</h3>
+      <p>Performance comparison between Claude 3 and GPT-4 in different tasks.</p>
+      <a href="https://www.proxet.com/blog/claude-3-vs-gpt-4-the-competitive-ai-landscape-weve-all-been-waiting-for" target="_blank">Read more →</a>
+    </div>
+    <div class="article-block">
+      <h3>Sora: Creating video from text</h3>
+      <p>OpenAI introduces Sora – a video generation model powered by text input.</p>
+      <a href="https://openai.com/sora" target="_blank">Read more →</a>
+    </div>
+    <div class="article-block">
+      <h3>Google's Gemini 1.5: Smarter and faster</h3>
+      <p>Deep dive into Gemini 1.5’s capabilities and architecture.</p>
+      <a href="https://blog.google/technology/ai/google-gemini-1-5/" target="_blank">Read more →</a>
+    </div>
+    <div class="article-block">
+      <h3>The 50 Best AI Tools in 2025 (Tried & Tested)</h3>
+      <p>Collection of top AI tools and platforms to boost productivity in 2025.</p>
+      <a href="https://www.synthesia.io/post/ai-tools" target="_blank">Read more →</a>
+    </div>
+    <div class="article-block">
+      <h3>AI in the Workplace: Report 2025</h3>
+      <p>McKinsey’s analysis on the impact of AI on workplace efficiency.</p>
+      <a href="https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/superagency-in-the-workplace" target="_blank">Read more →</a>
+    </div>
+    <div class="article-block">
+      <h3>Open-source AI: What’s real in 2025</h3>
+      <p>How open-source models are being used in real business scenarios.</p>
+      <a href="https://venturebeat.com/ai/open-source-ai-growth-2025/" target="_blank">Read more →</a>
+    </div>
+    <div class="article-block">
+      <h3>Best AI startups to watch this year</h3>
+      <p>A curated list of AI startups that are disrupting their industries.</p>
+      <a href="https://techcrunch.com/2025/03/ai-startups-to-watch/" target="_blank">Read more →</a>
+    </div>
+  </div>
+
+  <div class="cta">
+    <h2>Stay Updated</h2>
+    <p>Get weekly insights on AI tools and real-world applications</p>
+    <form>
+      <input type="email" placeholder="Email" required>
+      <br>
+      <button type="submit">GET NOTIFIED →</button>
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2025 Complete AI — <a href="https://completeapp.ai" target="_blank">completeapp.ai</a> — contact@completeapp.ai
+  </footer>
 </body>
 </html>
