@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -17,10 +18,10 @@
     header {
       display: flex;
       align-items: center;
-      padding: 20px;
+      padding: 20px 40px;
     }
     header img {
-      height: 50px;
+      height: 48px;
       width: auto;
     }
     .hero {
@@ -110,7 +111,7 @@
 <body>
 
   <header>
-    <img src="Screenshot 2025-04-16 222227.png" alt="Complete Logo" />
+    <img src="complete-logo.png" alt="Complete Logo" />
   </header>
 
   <div class="hero">
