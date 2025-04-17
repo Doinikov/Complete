@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Complete AI — Official Site</title>
   <style>
     body {
@@ -20,7 +20,6 @@
       padding: 60px 20px;
     }
     .hero {
-      background: #1e1f22;
       padding: 100px 20px 40px;
     }
     .hero img {
@@ -102,7 +101,7 @@
 </head>
 <body>
   <div class="hero">
-    <img src="complete-logo.png" alt="Complete Logo">
+    <img src="Screenshot 2025-04-16 222227.png" alt="Complete Logo" />
     <p class="description">
       <strong>SOLUTION (WHAT MAKES US UNIQUE)</strong><br><br>
       Freedom to Choose AI Models Without Leaving the Interface — Multiple platforms (GPT, Claude, Mistral, etc.) in a single workspace, with quick switching and no loss of context—whether in Prompt mode or Classic Chat.<br><br>
