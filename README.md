@@ -110,10 +110,12 @@
 </head>
 <body>
 
+  <!-- ЛОГОТИП -->
   <header>
-    <img src="complete-logo.png" alt="Complete Logo" />
+    <img src="Screenshot 2025-04-16 222227.png" alt="Complete Logo" />
   </header>
 
+  <!-- HERO + описание -->
   <div class="hero">
     <p class="description">
       <strong>SOLUTION (WHAT MAKES US UNIQUE)</strong><br><br>
@@ -127,6 +129,7 @@
     <button onclick="document.getElementById('articles').scrollIntoView({behavior: 'smooth'})">EXPLORE ↓</button>
   </div>
 
+  <!-- СТАТЬИ -->
   <div id="articles" class="section">
     <h2>Latest AI Insights</h2>
 
@@ -172,6 +175,7 @@
     </div>
   </div>
 
+  <!-- ПОДПИСКА -->
   <div class="cta">
     <h2>Stay Updated</h2>
     <p>Get weekly insights on AI tools and real-world applications</p>
@@ -182,6 +186,7 @@
     </form>
   </div>
 
+  <!-- ФУТЕР -->
   <footer>
     &copy; 2025 Complete AI — <a href="https://completeapp.ai" target="_blank">completeapp.ai</a> — contact@completeapp.ai
   </footer>
